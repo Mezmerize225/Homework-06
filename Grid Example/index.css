@@ -15,17 +15,19 @@
 .container{
     display: grid;
     grid-template-columns: 300px 200px 200px;
-    grid-template-rows: 200px 300px;  
-    gap: 20px;
+    grid-template-rows: 200px 300px 200px;
+    /* grid-template-rows: 200px 300px;   */
+    gap: 20px;    
 }
- .container2{
+
+ /* .container2{
     display: grid;
     grid-template-columns: 300px 200px 200px;
     grid-template-rows: 200px;
     gap: 20px;
     padding-top: 20px;
     padding-left: 10px;
- }
+ } */
 
  /* Grid items additional styling */
 
