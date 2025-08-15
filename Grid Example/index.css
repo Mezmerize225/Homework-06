@@ -1,0 +1,51 @@
+
+/* Defines general settings */
+
+.general-settings{
+    width: 818px;
+    height: 800px;
+    box-sizing: border-box;
+    background-color: var(--color-black);
+    border: 10px solid var(--color-white);
+    padding: 20px;
+}
+
+/* Grid styling */
+
+.container{
+    display: grid;
+    grid-template-columns: 300px 200px 200px;
+    grid-template-rows: 200px 300px;  
+    gap: 20px;
+}
+ .container2{
+    display: grid;
+    grid-template-columns: 300px 200px 200px;
+    grid-template-rows: 200px;
+    gap: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+ }
+
+ /* Grid items additional styling */
+
+.item1{
+    grid-row: span 2;
+    background-color: var(--color-red);
+}
+.item2{
+    background-color: var(--color-white);
+}
+.item3{
+    grid-row: span 2;
+    background-color: var(--color-white);
+}
+.item5{
+    background-color: var(--color-blue);
+}
+.item7{
+    background-color: var(--color-white);
+}
+.item8{
+    background-color: var(--color-yellow);
+}
